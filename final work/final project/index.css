@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* css for header */
+.header {
+  height: 90px;
+  width: 100%;
+  /* background-color: #0e4563; */
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+
+.container {
+  width: 90%;
+  /* background-color: red; */
+  display: flex;
+}
+
+.header_container {
+  justify-content: space-between;
+}
+
+.logo {
+  height: 90px;
+  width: 15%;
+  /* background-color: yellow; */
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  line-height: 90px;
+}
+
+.nav {
+  height: 90px;
+  width: 35%;
+  /* background-color: green; */
+  display: flex;
+}
+
+.nav-item {
+  width: 20%;
+  height: 90px;
+  /* background-color: grey; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  line-height: 90px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: #097fbe;
+}
+
+.banner {
+  height: 95vh;
+  width: 100%;
+  background-color: grey;
+  background-image: url("images/b.jpg");
+  background-size: cover;
+}
+
+.overlay {
+  height: 95vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.banner_text {
+  height: 300px;
+  width: 50%;
+  background-color: rgba(116, 128, 234, 0.7);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.banner_title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.banner_desc {
+  margin-bottom: 30px;
+}
+.padd {
+  padding: 20px;
+}
+
+.banner_btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.banner_btn:hover {
+  background-color: white;
+  color: rgba(116, 128, 234, 1);
+}
+
+/* services */
+.services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services_container {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service {
+  height: 400px;
+  width: 47%;
+  background-color: white;
+  display: flex;
+  margin: 20px;
+}
+
+.service_img {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+}
+.service_details {
+  width: 60%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.service_padd {
+  padding: 20px;
+  font-family:cursive;
+}
+
+.service_btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  background-color: rgba(116, 128, 234, 1);
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+.service_btn:hover {
+  background-color: #097fbe;
+  color: #353535;
+}
+
+.service_title {
+  margin-bottom: 15px;
+}
+
+.service_desc {
+  margin-bottom: 40px;
+}
+/* service part end  */
+
+/* about part start */
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+
+.about_container {
+  margin-top: 30px;
+  line-height: 30px;
+  display: inline;
+}
+
+.start_text {
+  font-size: 40px;
+  font-weight: bold;
+  color: grey;
+}
+/* about part end */
+
+/* highlight part start */
+.highlight {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: rgba(116, 128, 234, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.highlight_container {
+  justify-content: space-between;
+}
+
+.high_ele {
+  width: 22%;
+  height: 200px;
+  background-color: rgb(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: aliceblue;
+  border-radius: 15px;
+}
+
+.high_title {
+  font-size: 40px;
+}
+
+.high_desc {
+  font-size: 20px;
+}
+/* hightlight part over  */
+
+/* quote part start  */
+.quote {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote_container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote_title {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.quote_btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  background-color: rgba(116, 128, 234, 1);
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+.quote_btn:hover {
+  background-color: rgb(64, 137, 233);
+  color: rgb(250, 246, 246);
+}
+
+/* quotes part over  */
+/* portfolio part start  */
+
+.portfolio {
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e4e4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio_container {
+  flex-wrap: wrap;
+  width: 100%;
+  /* margin-top: 30px; */
+}
+.project {
+  width: 25%;
+  height: 400px;
+  background-color: red;
+  display: flex;
+}
+
+.project_1 {
+  background-image: url("https://images.pexels.com/photos/2294342/pexels-photo-2294342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+}
+
+.project_2 {
+  background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  align-items: flex-end;
+}
+.project_3 {
+  background-image: url("https://media.istockphoto.com/photos/new-virtual-money-concept-gold-bitcoins-is-digital-cryptocurrency-use-picture-id919509810?s=612x612");
+  background-size: cover;
+}
+.project_4 {
+  background-image: url("https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+  align-items: flex-end;
+}
+.project_5 {
+  background-image: url("https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+}
+.project_6 {
+  background-image: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+  align-items: flex-end;
+}
+.project_7 {
+  background-image: url("https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+}
+.project_8 {
+  background-image: url("https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  align-items: flex-end;
+}
+
+.project_title {
+  color: white;
+  width: 100%;
+  height: 150px;
+  text-indent: 30px;
+  line-height: 200px;
+  background-color: rgba(116, 128, 234, 0.7);
+  cursor: pointer;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.project_title:hover {
+  height: 400px;
+  width: 100%;
+}
+
+/* /project part over  */
+
+/* footer part start */
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_child {
+  width: 25%;
+  height: 300px;
+  /* background-color: grey; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_child_1 {
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+ul {
+  margin-top: 40px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.first {
+  font-size: 22px;
+}
+
+.footer_child_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_container {
+  width: 60%;
+  justify-content: space-between;
+}
+
+.social_icon {
+  height: 45px;
+  width: 45px;
+  background-color: #353535;
+  cursor: pointer;
+}
+
+.sa {
+  background-image: url("images/fb.png");
+  background-size: cover;
+}
+.sb {
+  background-image: url("images/google.png");
+  background-size: cover;
+}
+.sc {
+  background-image: url("images/linkedin.png");
+  background-size: cover;
+}
+.sd {
+  background-image: url("images/insta.png");
+  background-size: cover;
+}
+
+/* footer part end  */
